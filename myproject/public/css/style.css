@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+/* Make labels block-level elements for better layout */
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+/* Add some space around the inputs */
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;  /* Limit max width of the inputs */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+/* Style the form for better readability */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some style to the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Style the Back to Home link as a button */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;  /* Add space above the button */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Change color on hover */
+.back-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);  /* Slight lift effect */
+}
+
+/* Add focus style for accessibility */
+.back-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue glow on focus */
+}
+/* Style the Back to Home link as a button */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;  /* Add space above the button */
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Change color on hover */
+.back-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);  /* Slight lift effect */
+}
+
+/* Add focus style for accessibility */
+.back-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue glow on focus */
+}
